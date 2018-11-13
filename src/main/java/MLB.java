@@ -1,6 +1,6 @@
 public class MLB implements Presenter {
     @Override
     public String present(Object arg) {
-        return "mlb Presenter";
+        return "mlb presenter";
     }
 }
