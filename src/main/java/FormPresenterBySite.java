@@ -3,11 +3,11 @@ import com.google.inject.name.Named;
 
 import java.util.Map;
 
-public class PresenterBySite {
+public class FormPresenterBySite {
     private final Map<String, FormaterPresenter> presenters;
 
     @Inject
-    public PresenterBySite(@Named("RodriParameter") Map<String, FormaterPresenter> presenters) {
+    public FormPresenterBySite(@Named("RodriParameterForForms") Map<String, FormaterPresenter> presenters) {
         this.presenters = presenters;
     }
 
